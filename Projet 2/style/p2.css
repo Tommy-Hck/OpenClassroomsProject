@@ -1,0 +1,57 @@
+#logo{
+    width: 100px;
+    display: block;
+}
+#menu{
+    display: block;
+    margin-left: 1500px;
+}
+
+#location{
+    font-weight: bold;
+}
+#rechercher{
+    background-color: blue;
+    text-decoration: rgb(255, 253, 253);
+    border-radius: 5px;
+}
+
+#canebiere{
+    display: block;
+    width: 12%;
+}
+    
+
+#port{
+    display: block;
+    width: 12%;
+}
+
+#mouettes{
+    display: block;
+    width: 12%;
+}
+
+#mer{
+    display: block;
+    width: 12%;
+}
+
+#panier{
+    display: block;
+    width: 12%;
+}
+
+#amina{
+    display: block;
+    width: 12%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    margin-bottom: 50px;
+}
+
