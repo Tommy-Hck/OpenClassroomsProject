@@ -1,6 +1,12 @@
-html{
+
+@font-face {
     font-family: "Raleway";
-}
+        src: url("../fonts/Raleway-VariableFont_wght.ttf");
+    }
+
+ *{
+     font-family: "Raleway";
+ }
 
 #logo{
     width: 100px;
@@ -52,17 +58,19 @@ line-height: 2em;
 h2{
     margin-bottom: 50px;
     font-size: 25px;
+    position: absolute;
 }
 
 .grid-item {
     background-color: white;
-    
 }
 
 .hotel{
     padding: 50px;
     width: 300px;
     height: 175px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
@@ -80,12 +88,16 @@ h2{
 
 span{
     display: block;
+    color: #0065FC;
 }
 
 .foot{
     font-size: 18px;
+    display: block;
     display: flex;
+    height: 250px;
     font-weight: bold;
+    background-color: #585757
 }
 
 i{
@@ -101,19 +113,21 @@ i{
     margin-top: 25px;
 }
 
-.container {
+.conteneur {
     display: grid;
     /* tentative de grid plutôt que flex qui ne fonctionne pas comme je le souhaite */
     grid-template-columns: auto auto auto;
     padding: 10px;
     background-color: #585757;
     border-radius: 20px;
+    width:55%;
   }
 
 #filtres{
       display:inline-block;
       /* inline-block pour gérer le vertical align */
       background-color: #DEEBFF;
+      color: #0065FC;
       border-radius: 50px;
       width: 50px;
       height: 50px;
@@ -124,4 +138,47 @@ i{
       height: 25px;
       width: 25px;
       border-radius: 50px;
-      
+  }
+
+.populaire{
+    display: grid;
+    width: 15%;
+    margin-left: 1500px;
+    background-color: grey;
+    border-radius: 20px;
+    height: 800px;
+}
+
+.pop{
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.bouton{
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #585757;
+    background-color: white;
+    height: 30px;
+    width: 165px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.acti{
+    display: block;
+}
+
+.large{
+height: 500px;
+}
+.small{
+    width: 350px;
+}
+.fa-map-marker-alt{
+    float: left;
+}
+.container{
+    display: inline-block;
+}
