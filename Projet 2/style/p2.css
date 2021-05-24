@@ -1,3 +1,7 @@
+html{
+    font-family: "Raleway";
+}
+
 #logo{
     width: 100px;
     display: block;
@@ -13,11 +17,11 @@ line-height: 2em;
 
 #p{
     line-height: 0%;
-   
 }
 
 #menu{
     display: block;
+    display: flex;
     margin-left: 1500px;
 }
 
@@ -30,11 +34,10 @@ line-height: 2em;
     font-weight: bold;
     height: 40px;
     float:left;
-    
 }
 
 #rechercher{
-    background-color: #005EB0;
+    background-color: #0065FC;
     height: 40px;
     width: 110px;
     border-top-right-radius: 5px;
@@ -48,16 +51,77 @@ line-height: 2em;
 
 h2{
     margin-bottom: 50px;
+    font-size: 25px;
 }
 
-img{
-    width: 12%;
-    border-radius: 20px;
+.grid-item {
+    background-color: white;
+    
 }
 
-.container{
+.hotel{
+    padding: 50px;
+    width: 300px;
+    height: 175px;
+}
+
+
+
+#heb{
+    color: #0065FC;
+    padding-right: 50px;
+}
+
+#inscrire{
+    color: #0065FC;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+span{
     display: block;
-    max-block-size: 50%;
-    background-color: grey;
-    margin-right: 600px;
 }
+
+.foot{
+    font-size: 18px;
+    display: flex;
+    font-weight: bold;
+}
+
+i{
+    background-color:;
+    border-radius: 50px;
+}
+
+#filtre{
+    margin-top: 25px;
+}
+
+#info{
+    margin-top: 25px;
+}
+
+.container {
+    display: grid;
+    /* tentative de grid plutôt que flex qui ne fonctionne pas comme je le souhaite */
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #585757;
+    border-radius: 20px;
+  }
+
+#filtres{
+      display:inline-block;
+      /* inline-block pour gérer le vertical align */
+      background-color: #DEEBFF;
+      border-radius: 50px;
+      width: 50px;
+      height: 50px;
+      
+  }
+
+  .fas{
+      height: 25px;
+      width: 25px;
+      border-radius: 50px;
+      

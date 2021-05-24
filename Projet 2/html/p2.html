@@ -6,98 +6,144 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
     <link rel="stylesheet" type="text/css" href="../style/p2.css">
-    <script src="../library/fontawesome-free-5.15.3-web/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="../library/fontawesome-free-5.15.3-web/css/all.min.css"></link>
 
 </head>
 
 <body>
-
+    
     <header>
         <section>
             
-            <p id="menu">Hébergements Activités s'inscrire</p>
+            <nav id="menu">
+                <div id="heb">Hébergements</div>
+
+                <div>Activités</div>
+
+                <div id="inscrire">s'inscrire</div>
+                    
+                </nav>
     
             <img id="logo" src="../Projet 2 - Reservia/images/logo/logo.png">
     
-        <div id="title">
-            <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p id="p">En plein centre ville ou en pleine nature</p>
-        </div>
+                <div id="title">
+                    <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p id="p">En plein centre ville ou en pleine nature</p>
+                </div>
 
-            <div id="boutons">
-                <input id="location" type="search" name="location" value="Marseille,France">
-                <input id="rechercher" type="button" name="rechercher" value="Rechercher">
+                <div id="boutons">
+                    <div class="fas fa-map-marker-alt"></div>
+                    <input id="location" type="search" name="location" value="Marseille,France">
+                    <input id="rechercher" type="button" name="rechercher" value="Rechercher">
+                </div>
+    
+            <div id="filtre">
+                Filtres 
+                <i id="filtres" class="fas fa-money-bill-wave"></i>
+                <input type="button" name="Économique" value="Économique">
+                <i id="filtres" class="fas fa-child"></i>
+                <input  type="button" name="Familial" value="Familial">
+                <i id="filtres" class="fas fa-heart"></i>
+                <input type="button" name="Romantique" value="Romantique">
+                <i id="filtres" class="fas fa-dog"></i>
+                <input type="button" name="Animaux autorisés" value="Animaux autorisés">
             </div>
     
-            <nav>
-                Filtres Économique Familial Romantique Animaux autorisés
-            </nav>
-    
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p id="info"><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
     
     </section>
     
     </header>
     
 
-    <section>
-
-        <h2>Hébergements à Marseille</h2>
-
-    </section>
-
     <section class="container">
         
-        <div  id="cannebiere">
+         
 
-            <img src="../Projet 2 - Reservia/images/hebergements/4_small/canebiere.jpg" alt="">
+            <h2>Hébergements à Marseille</h2>
 
-            <h1>Auberge la Cannebière</h1>
+        <div  id="cannebiere"></div>
 
-            <h2>Nuit à partir de 25€</h2> 
+        <div class="container">
+            <div class="grid-item"><img class="hotel" src="../Projet 2 - Reservia/images/hebergements/4_small/canebiere.jpg" alt="">
+                <p>Auberge la Cannebière</p>
+                <p>Nuit à partir de 25€</p> 
+                <p> <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                </p>
+            </div> 
+
+            <div class="grid-item"><img class="hotel" src="../Projet 2 - Reservia/images/hebergements/4_small/port.jpg" alt=""></div>
+                <p>Hôtel du port</p>
+                <p>Nuit à partir de 52€</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                </p>
+
+            <div class="grid-item"><img class="hotel" src="../Projet 2 - Reservia/images/hebergements/4_small/mouettes.jpg" alt=""></div>
+                <p>Hôtel les mouettes</p>
+                <p>Nuit à partir de 76€</p>
+                <p></p>
+
+            <div class="grid-item"><img class="hotel" src="../Projet 2 - Reservia/images/hebergements/4_small/mer.jpg" alt=""></div>
+                <p>Hôtel de la mer</p>
+                <p>Nuit à partir de 46€</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                </p>
+
+            <div class="grid-item"><img class="hotel" src="../Projet 2 - Reservia/images/hebergements/4_small/panier.jpg" alt=""></div>
+                <p>Auberge Le Panier</p>
+                <p>Nuit à partir de 23€</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                </p>
+
+            <div class="grid-item"><img class="hotel" src="../Projet 2 - Reservia/images/hebergements/4_small/amina.jpg" alt=""></div>
+                <p>Hôtel chez Amina</p>
+                <p>Nuit à partir de 96€</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star notChecked"></span>
+                </p>
             
-        </div>
-
-        <div>
-            <img id="port" src="../Projet 2 - Reservia/images/hebergements/4_small/port.jpg" alt="">
-        </div>
-
-        <div>    
-            <img id="mouettes" src="../Projet 2 - Reservia/images/hebergements/4_small/mouettes.jpg" alt="">
-        </div>
-
-        <div>
-            <img id="mer" src="../Projet 2 - Reservia/images/hebergements/4_small/mer.jpg" alt="">
-        </div>
-
-        <div>
-            <img id="panier" src="../Projet 2 - Reservia/images/hebergements/4_small/panier.jpg" alt="">
-        </div>
-
-        <div>
-            <img id="amina" src="../Projet 2 - Reservia/images/hebergements/4_small/amina.jpg" alt="">
-        </div>
+          </div>
 
     </section>
 
 
-
+    <i class="fas fa-chart-line"></i>
+    <i class="fas fa-star"></i>
 
 </body>
 
 <footer>
 
-    <div>
+    <div class="foot">
         <div>
-            <h1>A propos</h1>
+            <p>A propos</p>
         </div>
 
         <div>
-            <h1>Nos hebergements</h1>
+            <p>Nos hébergements</p>
         </div>
 
         <div>
-            <h1>Assistance</h1>
+            <p>Assistance</p>
         </div>
 
 </div>
