@@ -8,22 +8,49 @@
      font-family: "Raleway";
  }
 
-#logo{
-    width: 100px;
-    display: block;
-}
-
-#title{
-    display: block;
-}
+ /* Texte */
 
 #titre{
-line-height: 2em;
+    line-height: 2em;
 }
 
 #p{
     line-height: 0%;
 }
+
+#location{
+    font-weight: bold;
+    height: 40px;
+    float:left;
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+#heb{
+    color: #0065FC;
+    padding-right: 50px;
+}
+
+#info{
+    margin-top: 25px;
+}
+
+#filtre{
+    margin-top: 25px;
+}
+
+#marseille{
+
+}
+
+
+/* flexbox grid */
 
 #menu{
     display: block;
@@ -31,15 +58,69 @@ line-height: 2em;
     margin-left: 1500px;
 }
 
-.boutons{
-    display: inline-block;
-    
+#title{
+    display: block;
 }
 
-#location{
+.grid-item {
+    background-color: #F2F2F2;
+    display: inline-block;
+}
+
+.foot{
+    font-size: 18px;
+    display: block;
+    display: flex;
+    height: 250px;
     font-weight: bold;
-    height: 40px;
-    float:left;
+    background-color: #F2F2F2;
+}
+
+.conteneur {
+    display: grid;
+    /* tentative de grid plutôt que flex qui ne fonctionne pas comme je le souhaite */
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width:75%;
+  }
+
+.populaires{
+    display: grid;
+    width: 22%;
+    margin-left: 1500px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: 800px;
+    position: relative;
+    bottom: 820px;
+}
+
+.acti{
+    display: block;
+}
+
+.container{
+    display: inline-block;
+    float: left;
+}
+
+/* Boutons */
+
+.boutons{
+    display: inline-block;   
+}
+
+.bouton{
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #F2F2F2;
+    background-color: white;
+    height: 30px;
+    width: 165px;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 #rechercher{
@@ -54,131 +135,90 @@ line-height: 2em;
 
 }
 
-
-h2{
-    margin-bottom: 50px;
-    font-size: 25px;
-    position: absolute;
-}
-
-.grid-item {
-    background-color: white;
-}
-
-.hotel{
-    padding: 50px;
-    width: 300px;
-    height: 175px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-
-
-#heb{
-    color: #0065FC;
-    padding-right: 50px;
-}
-
 #inscrire{
     color: #0065FC;
     font-weight: bold;
     padding-left: 50px;
 }
 
-span{
+#outils{
+margin-bottom: 25px;
+}
+
+/* Images */
+
+.hotel{
+    padding: 50px;
+    width: 220px;
+    height: 105px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.large{
+    height: 300px;
+}
+
+.small{
+        width: 350px;
+}
+
+.pop{
+        width: 150px;
+        height: 150px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+}
+    
+
+/* font awesome */
+
+.fas{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.fa-map-marker-alt{
+    float: left;
+    background-color: grey ;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.fa-info{
+    color: #0065FC;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.checked{
     display: block;
     color: #0065FC;
 }
 
-.foot{
-    font-size: 18px;
+.notChecked{
+    color: #F2F2F2;
+}
+
+#logo{
+    width: 100px;
     display: block;
-    display: flex;
-    height: 250px;
-    font-weight: bold;
-    background-color: #585757
+    flood-color: white;
 }
 
-i{
-    background-color:;
-    border-radius: 50px;
+.fa-chart-line{
+    position: relative;
+    top: 20px;
+    left: 300px;
 }
 
-#filtre{
-    margin-top: 25px;
-}
-
-#info{
-    margin-top: 25px;
-}
-
-.conteneur {
-    display: grid;
-    /* tentative de grid plutôt que flex qui ne fonctionne pas comme je le souhaite */
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    background-color: #585757;
-    border-radius: 20px;
-    width:55%;
-  }
-
-#filtres{
-      display:inline-block;
-      /* inline-block pour gérer le vertical align */
-      background-color: #DEEBFF;
-      color: #0065FC;
-      border-radius: 50px;
-      width: 50px;
-      height: 50px;
-      
-  }
-
-  .fas{
-      height: 25px;
-      width: 25px;
-      border-radius: 50px;
-  }
-
-.populaire{
-    display: grid;
-    width: 15%;
-    margin-left: 1500px;
-    background-color: grey;
-    border-radius: 20px;
-    height: 800px;
-}
-
-.pop{
-    width: 150px;
-    height: 150px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
-.bouton{
-    border-radius: 15px;
-    border-width: 1px;
-    border-color: #585757;
-    background-color: white;
-    height: 30px;
-    width: 165px;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.acti{
-    display: block;
-}
-
-.large{
-height: 500px;
-}
-.small{
-    width: 350px;
-}
-.fa-map-marker-alt{
-    float: left;
-}
-.container{
-    display: inline-block;
-}

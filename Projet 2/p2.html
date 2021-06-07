@@ -4,17 +4,7 @@
 
     <div id="texte">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="style/p2.css">
-    <link rel="stylesheet" type="text/css" href="library/fontawesome-free-5.15.3-web/css/all.min.css"></link>
-
-</head>
-
-<body>
-    
-    <header>
         <section>
             
             <nav id="menu">
@@ -33,25 +23,21 @@
                     <p id="p">En plein centre ville ou en pleine nature</p>
                 </div>
 
-                <div>
-                    <div class="fas fa-map-marker-alt"></div>
-                    <input class="boutons" id="location" type="search" name="location" value="Marseille,France">
-                    <input class="boutons" id="rechercher" type="button" name="rechercher" value="Rechercher">
-                </div>
-    
+               
             <div id="filtre">
                 Filtres 
-                <i id="filtres" class="fas fa-money-bill-wave"></i>
+                <i  class="fas fa-money-bill-wave filtres"></i>
                 <input class="bouton" type="button" name="Économique" value="Économique">
-                <i id="filtres" class="fas fa-child"></i>
+                <i class="fas fa-child filtres"></i>
                 <input  class="bouton" type="button" name="Familial" value="Familial">
-                <i id="filtres" class="fas fa-heart"></i>
+                <i class="fas fa-heart filtres"></i>
                 <input class="bouton" type="button" name="Romantique" value="Romantique">
-                <i id="filtres" class="fas fa-dog"></i>
+                <i class="fas fa-dog filtres"></i>
                 <input class="bouton" type="button" name="Animaux autorisés" value="Animaux autorisés">
             </div>
     
-            <p id="info"><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <span id="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</span>
+
     
     </section>
     
@@ -69,7 +55,7 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star checked"></span>
                     <span class="fa fa-star notChecked"></span>
             </div> 
             
@@ -79,8 +65,8 @@
                 <p><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star notChecked"></span>
-                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
                 </p>
             </div>
                
@@ -90,7 +76,7 @@
                 <p><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star checked"></span>
                     <span class="fa fa-star notChecked"></span>
                 </p>
             </div>
@@ -113,7 +99,7 @@
                 <p><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star checked"></span>
                     <span class="fa fa-star notChecked"></span>
                 </p>
             </div>
@@ -125,15 +111,15 @@
                 <p><span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star notChecked"></span>
-                    <span class="fa fa-star notChecked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
                 </p>
             </div>
                
           </div>
 
   
-        <div class="populaire">
+        <div class="grid-item populaires">
             <h2>Les plus populaires</h2><i class="fas fa-chart-line"></i>
             <img class="pop" src="images/hebergements/4_small/soleil.jpg" alt="">
             <img class="pop" src="images/hebergements/4_small/coeur.jpg" alt="">
@@ -145,6 +131,7 @@
 
     <section>
         <div class="acti">
+            <h2 id="marseille"> Activités à Marseille </h2>
             <img class="large" src="images/activites/4_small/vieuxport.jpg" alt="">
             <img class="small" src="images/activites/4_small/fort.jpg" alt="">
             <img class="small" src="images/activites/4_small/frioul.jpg" alt="">
@@ -157,30 +144,26 @@
 
     </section>
 
-
-    
-   
-
 </body>
 
 <footer>
 
     <div class="foot">
         <div>
-            <p>A propos</p>
+            <h2 id="apropos">A propos</h2>
             <p>Fonctionnement du site</p>
             <p>Conditions générales de vente</p>
             <p>Données et confidentialité</p>
         </div>
 
         <div>
-            <p>Nos hébergements</p>
+            <h2 id="hebergement">Nos hébergements</h2>
             <p>Charte qualité</p>
             <p>Soumettre votre hôtel</p>
         </div>
 
         <div>
-            <p>Assistance</p>
+            <h2 id="outils">Assistance</h2>
             <p>Centre d'aide</p>
             <p>Nous contacter</p>
         </div>
