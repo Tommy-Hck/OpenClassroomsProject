@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Raleway";
+        src: url("../fonts/Raleway-VariableFont_wght.ttf");
+    }
+
+ *{
+     font-family: "Raleway";
+ }
+
+ #menu{
+     display: block;
+     display: flex;
+     margin-left: 1450px;
+ }
+
+ #hebergement{
+    color: #0065FC;
+    margin-right: 50px;
+    font-size: 20px;
+    text-shadow: 0.5px 0px 0.3px;
+ }
+   
+
+#inscrire{
+    color: #0065FC;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+#activites{
+font-size: 20px;
+}
+
+#logo{
+    width: 120px;
+    display: block;
+    margin-top: -6px;
+}
+
+#titre{
+font-size: 28px;
+margin-top: 45px;
+}
+
+#nature{
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+#loc{
+display: flex;
+justify-content: left;
+position: relative; 
+right: 10px;
+}
+
+#rechercher{
+    background-color: #0065FC;
+    height: 50px;
+    width: 180px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    right: 5px;
+    vertical-align: 1px;
+}
+
+#location{
+    font-weight: bold;
+    height: 50px;
+    width: 315px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.fa-map-marker-alt{
+    text-align: center;
+    margin-left: 17px;
+    margin-top: 12px;
+    font-size: 22px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    left: 10px;
+    background-color: grey;
+}
+
+#filtersContainer p{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#eco{
+    font-weight: bold;
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 65px;
+    width: 260px;
+    border-color: #F2F2F2;
+    margin-left: -50px;
+}
+
+#familial{
+    font-weight: bold;
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
+    border-color: #F2F2F2;
+    margin-left: -50px;
+}
+
+#romantique{
+    font-weight: bold;
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 65px;
+    width: 300px;
+    border-color: #F2F2F2;
+    margin-left: -50px;
+}
+
+#animaux{
+    font-weight: bold;
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 40px;
+    height: 65px;
+    width: 350px;
+    margin-left: -50px;
+}
+
+.fa-money-bill-wave{
+    color: #0065FC ;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: -15px;
+    text-align: center;
+}
+
+.fa-child{
+    color: #0065FC ;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: -8px;
+    text-align: center;
+}
+
+.fa-heart{
+    color: #0065FC ;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: -12px;
+    text-align: center;
+}
+
+.fa-dog{
+    color: #0065FC ;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 30px;
+    position: relative;
+    top: -55px;
+    left: -15px;
+    text-align: center;
+}
+
+.test{
+    display: inline-flex;
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    top: 45px;
+    left: 15px;
+    background-color: #DEEBFF;
+}
