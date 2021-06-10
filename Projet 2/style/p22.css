@@ -238,7 +238,7 @@ margin-top: 50px;
 }
 
 .hotel{
-    width: 250px;
+    width: 275px;
     height: 130px;
     margin-left: 55px;
     margin-top: 5px;
@@ -260,7 +260,7 @@ margin-top: 50px;
 
 #background{
     margin-left: 50px;
-    width: 260px;
+    width: 285px;
     height: 225px;
     background-color: white;
     border-radius: 15px;
@@ -286,5 +286,11 @@ color: #0065FC;
 
 #port{
     margin-top: -220px;
-    margin-left: 320px;
+    margin-left: 350px;
 }
+
+#mouettes{
+    margin-top: -220px;
+    margin-left: 700px;
+}
+
