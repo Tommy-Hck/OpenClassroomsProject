@@ -232,16 +232,59 @@ right: 10px;
 }
 
 #marseille{
-font-size: 20px;
-margin-left: 50px;
+font-size: 25px;
+margin-left: 45px;
+margin-top: 50px;
 }
 
 .hotel{
     width: 250px;
     height: 130px;
     margin-left: 55px;
+    margin-top: 5px;
+    border-radius: 15px;
 }
 
 .text{
     margin-left: 65px;
+    margin-top:-5px;
+    line-height: 8px;
+}
+
+#host{
+    background-color: grey;
+    height: 600px;
+    width: 1100px;
+    border-radius: 15px;
+}
+
+#background{
+    margin-left: 50px;
+    width: 260px;
+    height: 225px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#content{
+    margin-top: -225px;
+}
+
+.checked{
+color: #0065FC;
+}
+
+.notChecked{
+    color: #DEEBFF;
+}
+
+.euro{
+    font-weight: bold;
+    margin-top: -24px;
+    margin-left: 115px;
+}
+
+#port{
+    margin-top: -220px;
+    margin-left: 320px;
 }
