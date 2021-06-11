@@ -232,9 +232,9 @@ right: 10px;
 }
 
 #marseille{
-font-size: 25px;
+font-size: 28px;
 margin-left: 45px;
-margin-top: 50px;
+margin-top: 45px;
 }
 
 .hotel{
@@ -253,9 +253,11 @@ margin-top: 50px;
 
 #host{
     background-color: grey;
-    height: 600px;
+    height: 700px;
     width: 1100px;
     border-radius: 15px;
+    margin-top: 50px;
+    position: fixed;
 }
 
 #background{
@@ -284,13 +286,32 @@ color: #0065FC;
     margin-left: 115px;
 }
 
-#port{
+.port{
     margin-top: -220px;
     margin-left: 350px;
 }
 
-#mouettes{
+.mouettes{
     margin-top: -220px;
     margin-left: 700px;
 }
 
+.mer{
+    margin-top: 60px;
+}
+
+.panier{
+    margin-top: -220px;
+    margin-left: 350px;
+}
+
+.amina{
+    margin-top: -220px;
+    margin-left: 700px;
+}
+
+#plus{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 18px;
+}
