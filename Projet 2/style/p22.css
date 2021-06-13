@@ -534,3 +534,23 @@ border-top-right-radius: 15px;
         margin-left: 890px;
         margin-top: -50px;
     }
+
+    #footer{
+        display: flex;
+        background-color: #F2F2F2;
+        width: 1800px;
+        margin-top: 100px;
+    }
+
+    #aPropos{
+        margin-top: 40px;
+    }
+    #charte{
+        margin-top: 40px;
+        margin-left: 300px;
+    }
+
+    #assistance{
+        margin-top: 40px;
+        margin-left: 370px;
+    }
