@@ -91,7 +91,7 @@ right: 10px;
     border-bottom-left-radius: 10px;
     position: relative;
     left: 10px;
-    background-color: grey;
+    background-color: #F2F2F2;
 }
 
 #filtersContainer p{
@@ -207,7 +207,7 @@ right: 10px;
  height: 45px;
  width: 45px;
  border-radius: 100px;
- background-color: grey;
+ background-color: #F2F2F2;
  position: relative;
  top: 10px;
 }
@@ -234,7 +234,7 @@ right: 10px;
 #marseille{
 font-size: 28px;
 margin-left: 45px;
-margin-top: 45px;
+margin-top: 50px;
 }
 
 .hotel{
@@ -252,12 +252,11 @@ margin-top: 45px;
 }
 
 #host{
-    background-color: grey;
-    height: 700px;
+    background-color: #F2F2F2;
+    height: 750px;
     width: 1100px;
     border-radius: 15px;
     margin-top: 50px;
-    position: fixed;
 }
 
 #background{
@@ -277,7 +276,7 @@ color: #0065FC;
 }
 
 .notChecked{
-    color: #DEEBFF;
+    color: #F2F2F2;
 }
 
 .euro{
@@ -311,21 +310,21 @@ color: #0065FC;
 }
 
 #plus{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 50px;
     font-size: 18px;
 }
 
 .blocDroit{
-background-color: grey;
+background-color: #F2F2F2;
 width: 500px;
-height: 700px;
-margin-top: -685px;
+height: 750px;
+margin-top: -750px;
 margin-left: 1200px;
 border-radius: 15px;
 }
 
-#text{
+#navPop{
     display: inline-block;
     margin-left: 30px;
     margin-top: 25px;
@@ -344,16 +343,16 @@ border-radius: 15px;
 }
 
 .pop{
-    margin-left: 40px;
-    margin-top: -250px;
-    width: 180px;
-    height: 150px;
+    margin-left: 35px;
+    margin-top: -225px;
+    width: 150px;
+    height: 160px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 #images{
-    margin-top: -25px;
+    margin-top: -20px;
 }
 
 #font{
@@ -363,4 +362,61 @@ border-radius: 15px;
     height: 170px;
     background-color: white;
     border-radius: 15px;
+}
+
+#matin{
+ margin-top: -160px;
+ margin-left: 200px;
+}
+
+.nuit{
+    line-height: 6px;
+}
+
+.etoile{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+
+#coeur{
+    margin-top: 60px;
+}
+
+#eau{
+    margin-top: -160px;
+    margin-left: 200px;
+}
+
+#bleublanc{
+    margin-top: 60px;
+}
+
+#toutbleu{
+    margin-top: -160px;
+    margin-left: 200px;
+}
+
+#aFaire{
+    margin-top: 80px; 
+}
+
+#vieuxport{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 8px #F2F2F2;
+}
+
+.large{
+    width: 350px;
+    height: 450px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#soustitre{
+    margin-left: 20px;
+    margin-top: -10px;
 }
