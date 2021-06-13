@@ -403,10 +403,9 @@ border-radius: 15px;
 #vieuxport{
     height: 500px;
     width: 350px;
-    background-color: white;
     border-radius: 15px;
     margin-top: 20px;
-    box-shadow: 5px 5px 5px 8px #F2F2F2;
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
 }
 
 .large{
@@ -426,7 +425,7 @@ border-radius: 15px;
     height: 275px;
     margin-left: 420px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 8px #F2F2F2;
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
 }
 
 #pomegues{
@@ -436,7 +435,8 @@ border-radius: 15px;
 .small{
     height: 225px;
     width: 350px;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 #pomTitre{
@@ -450,11 +450,87 @@ border-radius: 15px;
     height: 180px;
     margin-left: 420px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 8px #F2F2F2;
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
 }
 
 .horizon{
 width: 350px;
 height: 130px;
-border-radius: 15px;
+border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
+
+#calanques{
+    margin-left: 850px;
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
+}
+
+.parc{
+    width: 350px;
+    height: 450px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#national{
+    margin-top: -520px;
+}
+
+#dameGarde{
+    position: relative;
+    left: 860px;
+    /* position relative car margin ne fonctionne pas */
+    margin-top: 120px;
+    width: 350px;
+    height: 180px;
+    margin-left: 420px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
+}
+
+.garde{
+    width: 350px;
+    height: 130px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    }
+    
+    #notreDame{
+    margin-top: -620px;
+    }
+    
+    #dameTitre{
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+
+    #pl{
+        margin-left: 420px;
+    }
+
+    #longchamp{
+        margin-left: 860px;
+        margin-top: 50px;
+        height: 270px;
+        width: 350px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 0px #F2F2F2;
+    }
+    
+    .parcLong{
+        width: 350px;
+        height: 300px;
+        height: 225px;
+        width: 350px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    #titreLongchamp{
+        margin-left: 890px;
+        margin-top: -50px;
+    }
