@@ -207,7 +207,7 @@ right: 10px;
  height: 45px;
  width: 45px;
  border-radius: 100px;
- background-color: teal;
+ background-color: grey;
  position: relative;
  top: 10px;
 }
@@ -314,4 +314,53 @@ color: #0065FC;
     margin-top: 40px;
     margin-left: 50px;
     font-size: 18px;
+}
+
+.blocDroit{
+background-color: grey;
+width: 500px;
+height: 700px;
+margin-top: -685px;
+margin-left: 1200px;
+border-radius: 15px;
+}
+
+#text{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.fa-chart-line{
+    margin-left: 420px;
+    position: relative;
+    top: -40px;
+    font-size: 26px;
+}
+
+.soleil{
+    margin-top: -680px;
+    margin-left: 1250px;
+}
+
+.pop{
+    margin-left: 40px;
+    margin-top: -250px;
+    width: 180px;
+    height: 150px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#images{
+    margin-top: -25px;
+}
+
+#font{
+    margin-top: -15px;
+    margin-left: 30px;
+    width: 400px;
+    height: 170px;
+    background-color: white;
+    border-radius: 15px;
 }
