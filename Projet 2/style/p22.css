@@ -406,7 +406,7 @@ border-radius: 15px;
     background-color: white;
     border-radius: 15px;
     margin-top: 20px;
-    box-shadow: 5px 5px 8px #F2F2F2;
+    box-shadow: 5px 5px 5px 8px #F2F2F2;
 }
 
 .large{
@@ -419,4 +419,42 @@ border-radius: 15px;
 #soustitre{
     margin-left: 20px;
     margin-top: -10px;
+}
+
+#fort{
+    width: 350px;
+    height: 275px;
+    margin-left: 420px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 8px #F2F2F2;
+}
+
+#pomegues{
+    margin-top: -500px;
+}
+
+.small{
+    height: 225px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#pomTitre{
+    margin-left: 25px;
+    margin-top: -7px;
+}
+
+#frioul{
+    margin-top: 45px;
+    width: 350px;
+    height: 180px;
+    margin-left: 420px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 8px #F2F2F2;
+}
+
+.horizon{
+width: 350px;
+height: 130px;
+border-radius: 15px;
 }
