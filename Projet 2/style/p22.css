@@ -50,8 +50,6 @@ margin-top: 45px;
 #loc{
 display: flex;
 justify-content: left;
-position: relative; 
-right: 10px;
 }
 
 #rechercher{
@@ -64,8 +62,6 @@ right: 10px;
     font-weight: bold;
     font-size: 25px;
     color: white;
-    position: relative;
-    right: 5px;
     vertical-align: 1px;
 }
 
@@ -73,7 +69,6 @@ right: 10px;
     font-weight: bold;
     height: 60px;
     width: 315px;
-    margin-left: 5px;
     font-size: 25px;
 }
 
@@ -89,15 +84,16 @@ right: 10px;
     width: 50px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    position: relative;
-    left: 10px;
     background-color: #F2F2F2;
 }
 
-#filtersContainer p{
-    display: inline-block;
+#filtersContainer {
+    width: 150px;
+    display: flex;
+    justify-content: stretch;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 #eco{
@@ -108,7 +104,6 @@ right: 10px;
     height: 65px;
     width: 260px;
     border-color: #F2F2F2;
-    margin-left: -50px;
 }
 
 #familial{
@@ -119,7 +114,6 @@ right: 10px;
     height: 65px;
     width: 200px;
     border-color: #F2F2F2;
-    margin-left: -50px;
 }
 
 #romantique{
@@ -130,7 +124,6 @@ right: 10px;
     height: 65px;
     width: 250px;
     border-color: #F2F2F2;
-    margin-left: -50px;
 }
 
 #animaux{
@@ -140,76 +133,42 @@ right: 10px;
     border-radius: 40px;
     height: 65px;
     width: 325px;
-    margin-left: -50px;
 }
 
 .fa-money-bill-wave{
     color: #0065FC ;
-    margin-left: 30px;
-    margin-top: 60px;
     font-size: 30px;
-    position: relative;
-    top: -40px;
-    left: -15px;
-    text-align: center;
+    margin: auto;
 }
 
 .fa-child{
     color: #0065FC ;
-    margin-left: 30px;
-    margin-top: 60px;
     font-size: 30px;
-    position: relative;
-    top: -45px;
-    left: -8px;
-    text-align: center;
+    margin: auto;
 }
 
 .fa-heart{
     color: #0065FC ;
-    margin-left: 30px;
-    margin-top: 60px;
     font-size: 30px;
-    position: relative;
-    top: -40px;
-    left: -12px;
-    text-align: center;
+    margin: auto;
 }
 
 .fa-dog{
     color: #0065FC ;
-    margin-left: 30px;
-    margin-top: 60px;
     font-size: 30px;
-    position: relative;
-    top: -45px;
-    left: -15px;
-    text-align: center;
+    margin: auto;
 }
 
 .test{
-    display: inline-flex;
-    height: 65px;
-    width: 65px;
-    border-radius: 100%;
-    position: relative;
-    z-index: 1;
-    top: 45px;
-    left: 15px;
-    background-color: #DEEBFF;
+    display: flex;
 }
 
-.bouton{
-    padding-left: 50px;
-}
 
 #info{
  height: 45px;
  width: 45px;
  border-radius: 100px;
  background-color: #F2F2F2;
- position: relative;
- top: 10px;
 }
 
 .fa-info{
@@ -227,9 +186,9 @@ right: 10px;
 
 .city{
     display: flex;
-    position: relative;
-    top: 20px;
 }
+
+.container{}
 
 #marseille{
 font-size: 28px;
