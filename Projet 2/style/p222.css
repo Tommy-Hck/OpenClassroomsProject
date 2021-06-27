@@ -182,11 +182,13 @@ justify-content: left;
 /* Hebergements à Marseille */
 
 .container{
-    max-width: 65%;
+    max-width: 67%;
+    background-color: burlywood;
+    border-radius: 15px;
 }
 
 .hotel{
-    margin-right: 50px;
+    margin-left: 5px;
     width: 325px;
     height: 175px;
     margin-top: 5px;
@@ -206,4 +208,28 @@ justify-content: left;
 .text{
     margin-left: 20px;
     line-height: 5px;
+}
+
+.euro{
+    font-weight: bold;
+}
+
+#content{
+    margin-right: 60px;
+    width: 335px;
+    height: 275px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+.checked{
+    color: #0065FC;
+}
+    
+.notChecked{
+        color: #F2F2F2;
+}
+
+#marseille{
+    margin-top: 25px;
 }
