@@ -12,6 +12,8 @@
     margin-left: 50px;
  }
 
+ a:hover {color: red;}
+
  #menu{
      display: flex;
      justify-content: flex-end;
@@ -180,7 +182,7 @@ justify-content: left;
 /* Hebergements à Marseille */
 
 .container{
-    display: flex;
+    
 }
 
 .hotel{
@@ -189,7 +191,10 @@ justify-content: left;
     margin-left: 55px;
     margin-top: 5px;
     border-radius: 15px;
+    
 }
 
-#host{
+.hostcontent{
+    display: inline-flex;
+    flex-wrap: wrap;
 }
