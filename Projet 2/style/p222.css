@@ -99,7 +99,9 @@ justify-content: left;
 }
 
 #filtersContainer{
+    max-width: 70%;
     display: flex;
+    justify-content: space-around;
     font-size: 25px;
     font-weight: bold;
     margin-top: 50px;
@@ -138,7 +140,7 @@ justify-content: left;
     margin-right: 30px;
 }
 
-.test{
+.categorie{
     display: flex;
     font-weight: bold;
     border-width: 1px;
