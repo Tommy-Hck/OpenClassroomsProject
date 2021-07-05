@@ -102,10 +102,10 @@ justify-content: left;
 #filtersContainer{
     max-width: 80%;
     display: flex;
-    font-size: 25px;
+    font-size: 1.2vw;
     font-weight: bold;
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
 } 
 
 #whistle{
