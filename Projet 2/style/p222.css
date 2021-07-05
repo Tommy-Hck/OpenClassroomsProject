@@ -10,6 +10,7 @@
 
  body{ 
     margin-left: 50px;
+    margin-right: 50px;
  }
 
  a:hover {color: red;}
@@ -100,7 +101,7 @@ justify-content: left;
 }
 
 #filtersContainer{
-    max-width: 80%;
+    width: 70%;
     display: flex;
     font-size: 1.2vw;
     font-weight: bold;
@@ -114,7 +115,7 @@ justify-content: left;
 
 .filtres{
     color: #0065FC ;
-    font-size: 30px;
+    font-size: 1.5vw;
     margin-top: 15px;
     text-align: left;
 }
@@ -172,7 +173,7 @@ justify-content: left;
 
 .container{
     height: 750px;
-    max-width: 67%;
+    max-width: 70%;
     background-color: burlywood;
     border-radius: 15px;
 }
@@ -221,5 +222,10 @@ justify-content: left;
 }
 
 #marseille{
-    margin-top: 25px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+#plus{
+    padding-top: 10px;
 }
