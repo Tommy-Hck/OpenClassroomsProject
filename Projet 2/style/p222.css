@@ -10,7 +10,7 @@
 
  body{ 
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 70px;
  }
 
  a:hover {color: red;}
@@ -101,7 +101,7 @@ justify-content: left;
 }
 
 #filtersContainer{
-    width: 70%;
+    width: 75%;
     display: flex;
     font-size: 1.2vw;
     font-weight: bold;
@@ -165,20 +165,19 @@ justify-content: left;
     margin-top: 15px;
     text-decoration: none;
     color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Hebergements à Marseille */
 
 .container{
-    height: 750px;
-    max-width: 70%;
-    background-color: burlywood;
-    border-radius: 15px;
+    display: flex; 
+    justify-content: space-between;
 }
 
 .hotel{
+    object-fit:cover;
     margin-left: 5px;
     width: 325px;
     height: 175px;
@@ -188,12 +187,16 @@ justify-content: left;
 }
 
 #host{
-    margin-left: 40px;
+    max-width: 70%;
+    height: 750px;
+    background-color: aqua;
+    border-radius: 15px;
 }
 
 .hostcontent{
     display: inline-flex;
     flex-direction: column;
+    margin-left: 3.5em;
 }
 
 .text{
@@ -206,10 +209,9 @@ justify-content: left;
 }
 
 #content{
-    margin-right: 60px;
     width: 335px;
     height: 275px;
-    background-color: #F2F2F2;
+    background-color: white;
     border-radius: 15px;
 }
 
@@ -222,10 +224,41 @@ justify-content: left;
 }
 
 #marseille{
-    padding-top: 30px;
-    margin-top: 20px;
+    margin-left: 3.5em;
+    padding-top: 20px;
 }
 
 #plus{
+    margin-left: 3.5em;
     padding-top: 10px;
+}
+
+/* les plus populaires */
+
+.blocDroit{
+    display: flex;
+    flex-direction: column;
+}
+
+.fame{
+    object-fit:cover;
+    padding-top: 7px;
+    margin-left: 5px;
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#images{
+    width: 350px;
+    height: 165px;
+    background-color: aqua;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;   
+}
+
+
+#navpop{
+    
 }
