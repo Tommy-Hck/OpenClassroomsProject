@@ -258,12 +258,16 @@ justify-content: left;
     display: flex;
     width: 400px;
     height: 165px;
-    background-color: aqua;
+    background-color: white;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;   
+    margin-left: 1.5vw;
 }
 
+.description{
+    font-size: 14px;
+    margin-left: 15px
+}
 
 .etoiles{
-    padding-top: ;
 }
