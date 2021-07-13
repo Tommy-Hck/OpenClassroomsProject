@@ -236,8 +236,12 @@ justify-content: left;
 /* les plus populaires */
 
 .blocDroit{
-    display: flex;
     flex-direction: column;
+    width: 475px;
+    height: 750px;
+    background-color: grey;
+    border-radius: 10px
+
 }
 
 .fame{
@@ -250,8 +254,9 @@ justify-content: left;
     border-top-left-radius: 10px;
 }
 
-#images{
-    width: 350px;
+.images{
+    display: flex;
+    width: 400px;
     height: 165px;
     background-color: aqua;
     border-bottom-left-radius: 10px;
@@ -259,6 +264,6 @@ justify-content: left;
 }
 
 
-#navpop{
-    
+.etoiles{
+    padding-top: ;
 }
