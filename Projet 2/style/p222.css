@@ -197,6 +197,7 @@ justify-content: left;
     display: inline-flex;
     flex-direction: column;
     margin-left: 3.5em;
+    padding-bottom: 2vw;
 }
 
 .text{
@@ -232,7 +233,7 @@ justify-content: left;
 
 #plus{
     margin-left: 3.5em;
-    padding-top: 10px;
+    padding-bottom: 2vw;
 }
 
 /* les plus populaires */
@@ -246,6 +247,8 @@ justify-content: left;
     padding-right: 10px;
     padding-left: 1vw;
     padding-right: 1vw;
+    margin-top: 15px;
+    padding-top: 1vw;
 
 }
 
