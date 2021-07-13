@@ -10,7 +10,7 @@
 
  body{ 
     margin-left: 50px;
-    margin-right: 70px;
+    margin-right: 50px;
  }
 
  a:hover {color: red;}
@@ -217,10 +217,12 @@ justify-content: left;
 
 .checked{
     color: #0065FC;
+    font-size: 0.6vw;
 }
     
 .notChecked{
     color: #F2F2F2;
+    font-size: 0.6vw;
 }
 
 #marseille{
@@ -237,7 +239,7 @@ justify-content: left;
 
 .blocDroit{
     flex-direction: column;
-    width: 475px;
+    width: 455px;
     height: 750px;
     background-color: grey;
     border-radius: 10px
@@ -256,18 +258,23 @@ justify-content: left;
 
 .images{
     display: flex;
-    width: 400px;
+    width: 380px;
     height: 165px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;   
+    border-radius: 10px;
     margin-left: 1.5vw;
 }
 
 .description{
+    padding-top: 0.4vw;
     font-size: 14px;
     margin-left: 15px
 }
 
-.etoiles{
+.nuit{
+    line-height: 6px;
+}
+
+.etoile{
+    line-height: 4vw;
 }
