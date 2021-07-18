@@ -189,7 +189,7 @@ justify-content: left;
 #host{
     margin-top: 15px;
     max-width: 70%;
-    background-color: aqua;
+    background-color: #F2F2F2;
     border-radius: 15px;
 }
 
@@ -211,7 +211,7 @@ justify-content: left;
 
 #content{
     width: 335px;
-    height: 275px;
+    height: 13vw;
     background-color: white;
     border-radius: 15px;
 }
@@ -242,7 +242,7 @@ justify-content: left;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    background-color: grey;
+    background-color: #F2F2F2;
     border-radius: 10px;
     padding-right: 10px;
     padding-left: 1vw;
@@ -281,12 +281,13 @@ justify-content: left;
 }
 
 .etoile{
-    line-height: 6vw;
+    line-height: 6.2vw;
 }
 
 #navPop{
     display: flex;
-    flex-direction: row;
+    padding-bottom: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 
@@ -295,6 +296,7 @@ justify-content: left;
     padding-bottom: 1.8vw;
 }
 
-#soleil{
-    padding-top: vw;
+.fa-chart-line{
+    padding-left: 8vw;
+    padding-top: 1.4vw;
 }
