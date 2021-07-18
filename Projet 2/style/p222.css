@@ -302,33 +302,57 @@ justify-content: left;
 }
 
 .activités{
+}
+
+#populaires{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .picture{
     object-fit:cover;
-    width: 20vw;
-    height: 30vw;
+    width: 18vw;
+    height: 25vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid black;
+    align-content: space-between;
 }
 
 #fort{
     object-fit:cover;
     width: 20VW;
     height: 12VW;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
 }
 
 #island{
     object-fit:cover;
     width: 20vw;
     height: 8vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+    padding-top: 4.9vw;
 }
 
-.small{
+#garde{
+    object-fit: cover;
+    width: 20vw;
+    height: 10vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+}
+
+#fontaine{
     object-fit:cover;
     width: 20vw;
+    height: 12vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
 }
-    
