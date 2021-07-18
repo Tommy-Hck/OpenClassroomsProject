@@ -180,7 +180,7 @@ justify-content: left;
     object-fit:cover;
     margin-left: 5px;
     width: 325px;
-    height: 175px;
+    height: 8vw;
     margin-top: 5px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -257,7 +257,7 @@ justify-content: left;
     padding-top: 7px;
     margin-left: 5px;
     width: 150px;
-    height: 150px;
+    height: 9vw;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -265,7 +265,7 @@ justify-content: left;
 .images{
     display: flex;
     width: 380px;
-    height: 165px;
+    height: 9.7vw;
     background-color: white;
     border-radius: 10px;
 }
@@ -273,7 +273,7 @@ justify-content: left;
 .description{
     padding-top: 0.4vw;
     font-size: 14px;
-    margin-left: 15px
+    margin-left: 15px;
 }
 
 .nuit{
@@ -281,14 +281,20 @@ justify-content: left;
 }
 
 .etoile{
-    line-height: 4vw;
+    line-height: 6vw;
 }
 
 #navPop{
     display: flex;
+    flex-direction: row;
 }
 
 
 
-#arrow{
+#bleublanc{
+    padding-bottom: 1.8vw;
+}
+
+#soleil{
+    padding-top: vw;
 }
