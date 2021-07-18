@@ -300,3 +300,35 @@ justify-content: left;
     padding-left: 8vw;
     padding-top: 1.4vw;
 }
+
+.activités{
+    display: flex;
+    flex-direction: row;
+}
+
+.picture{
+    object-fit:cover;
+    width: 20vw;
+    height: 30vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+}
+
+#fort{
+    object-fit:cover;
+    width: 20VW;
+    height: 12VW;
+}
+
+#island{
+    object-fit:cover;
+    width: 20vw;
+    height: 8vw;
+}
+
+.small{
+    object-fit:cover;
+    width: 20vw;
+}
+    
