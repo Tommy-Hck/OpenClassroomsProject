@@ -365,3 +365,8 @@ justify-content: left;
     background-color: grey;
     display: flex;
 }
+
+.main-container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
