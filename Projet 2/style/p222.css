@@ -8,7 +8,7 @@
  }
 
 
- body{ 
+ #main-container{ 
     margin-left: 50px;
     margin-right: 50px;
  }
@@ -240,8 +240,8 @@ justify-content: left;
 
 .blocDroit{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #F2F2F2;
     border-radius: 10px;
     padding-right: 10px;
@@ -291,7 +291,6 @@ justify-content: left;
 }
 
 
-
 #bleublanc{
     padding-bottom: 1.8vw;
 }
@@ -301,23 +300,24 @@ justify-content: left;
     padding-top: 1.4vw;
 }
 
-.activités{
-}
+/* acitivités à Marseille */
 
-#populaires{
+#picture-container{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
 
 .picture{
     object-fit:cover;
     width: 18vw;
-    height: 25vw;
+    height: 28vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid black;
-    align-content: space-between;
+   justify-content: center;
 }
 
 #fort{
@@ -336,7 +336,6 @@ justify-content: left;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid black;
-    padding-top: 4.9vw;
 }
 
 #garde{
@@ -355,4 +354,14 @@ justify-content: left;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid black;
+}
+
+.bottom{
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+#footer{
+    background-color: grey;
+    display: flex;
 }
