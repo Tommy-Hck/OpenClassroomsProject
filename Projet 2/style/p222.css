@@ -359,11 +359,13 @@ justify-content: left;
 .bottom{
     background-color: cadetblue;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 #footer{
     background-color: grey;
     display: flex;
+    align-items:baseline;
 }
 
 .main-container{
