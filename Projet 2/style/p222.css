@@ -321,8 +321,8 @@ justify-content: left;
 
 #fort{
     object-fit:cover;
-    width: 20VW;
-    height: 12VW;
+    width: 20vw;
+    height: 28vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border: 1px solid black;
@@ -358,11 +358,23 @@ justify-content: left;
 .bottom{
     background-color: cadetblue;
     border-radius: 10px;
-    margin-top: 20px;
+}
+
+.last{
+    margin-top: 4.7vh;
+}
+
+.first{
+    margin-top: 6vh;
+}
+
+.background-large{
+    background-color: cadetblue;
+    border-radius: 10px;
 }
 
 #footer-container{
-    background-color: grey;
+    background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -374,8 +386,21 @@ justify-content: left;
 
 ul{
     list-style-type: none;
+    line-height: 3.8vh;
+    white-space: nowrap;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
 }
 .main-container{
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.soustitre{
+    margin-left: 1vw;
+}
+
+.soustitre-small{
+    margin-left: 1vw;
+    padding-bottom: 0.2vh;
 }
