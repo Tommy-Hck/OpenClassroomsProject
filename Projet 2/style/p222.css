@@ -356,8 +356,9 @@ justify-content: left;
 }
 
 .bottom{
-    background-color: cadetblue;
+    background-color: white;
     border-radius: 10px;
+    border: 1px solid #F2F2F2;
 }
 
 .last{
@@ -369,9 +370,11 @@ justify-content: left;
 }
 
 .background-large{
-    background-color: cadetblue;
+    background-color: white;
     border-radius: 10px;
+    border-bottom: 12px solid #F2F2F2;
 }
+
 
 #footer-container{
     background-color: #F2F2F2;
@@ -398,9 +401,11 @@ ul{
 
 .soustitre{
     margin-left: 1vw;
+    font-size: 18px;
 }
 
 .soustitre-small{
     margin-left: 1vw;
-    padding-bottom: 0.2vh;
+    padding-bottom: 0.1vh;
+    font-size: 18px;
 }
