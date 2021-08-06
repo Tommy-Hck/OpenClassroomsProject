@@ -306,6 +306,10 @@ justify-content: left;
 
 /* acitivités à Marseille */
 
+.container-activites{
+    padding-bottom: 8vh;
+}
+
 #picture-container{
     display: flex;
     justify-content: space-between;
