@@ -323,7 +323,6 @@ justify-content: left;
     height: 28vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid black;
    justify-content: center;
 }
 
@@ -333,7 +332,6 @@ justify-content: left;
     height: 28vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid black;
 }
 
 #island{
@@ -342,7 +340,6 @@ justify-content: left;
     height: 8vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid black;
 }
 
 #garde{
@@ -351,7 +348,6 @@ justify-content: left;
     height: 10vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid black;
 }
 
 #fontaine{
@@ -360,15 +356,12 @@ justify-content: left;
     height: 12vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid black;
 }
 
 .bottom{
     background-color: white;
     border-radius: 10px;
-    border-bottom: 4px solid #F2F2F2;
-    border-left: 4px solid #F2F2F2;
-    border-right: 4px solid #F2F2F2;
+    box-shadow: 4px 4px 6px #F2F2F2;
 }
 
 .last{
@@ -382,9 +375,7 @@ justify-content: left;
 .background-large{
     background-color: white;
     border-radius: 10px;
-    border-bottom: 4px solid #F2F2F2;
-    border-left: 4px solid #F2F2F2;
-    border-right: 4px solid #F2F2F2;
+    box-shadow: 4px 4px 6px #F2F2F2;
 }
 
 
