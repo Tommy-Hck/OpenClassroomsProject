@@ -234,8 +234,7 @@ justify-content: left;
 
 #plus{
     margin-left: 3.5vw;
-    margin-top: 4vh;
-    padding-bottom: 4vh;
+    padding-bottom: 15px;
 }
 
 /* les plus populaires */
@@ -247,8 +246,8 @@ justify-content: left;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding-right: 10px;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     margin-top: 15px;
     padding-top: 1vw;
 
@@ -257,24 +256,23 @@ justify-content: left;
 .fame{
     object-fit:cover;
     padding-top: 7px;
-    margin-left: 5px;
-    width: 150px;
-    height: 8vw;
+    margin-left: 7px;
+    width: 8vw;
+    height: 18vh;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
 
 .images{
     display: flex;
-    width: 380px;
-    height: 18vh;
+    width: 22vw;
+    height: 19.5vh;
     background-color: white;
     border-radius: 20px;
 }
 
 .description{
-    padding-top: 0.4vw;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 15px;
 }
 
@@ -283,23 +281,25 @@ justify-content: left;
 }
 
 .etoile{
-    line-height: 10vh;
+    margin-top: 6.5vh;
 }
 
 #navPop{
     display: flex;
     padding-bottom: 2vh;
     margin-bottom: 1vh;
+    margin-top: 10px;
 }
 
 
 #bleublanc{
-    padding-bottom: 8vh;
+    padding-bottom: 3vh;
 }
 
 .fa-chart-line{
-    padding-left: 8vw;
+    padding-left: 7vw;
     padding-top: 1.4vw;
+    font-size: 20px;
 }
 
 /* acitivités à Marseille */
@@ -333,7 +333,7 @@ justify-content: left;
 #island{
     object-fit:cover;
     width: 20vw;
-    height: 8vw;
+    height: 18vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
