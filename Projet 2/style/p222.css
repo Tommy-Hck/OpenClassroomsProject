@@ -179,46 +179,42 @@ justify-content: left;
 
 .hotel{
     object-fit:cover;
-    margin-left: 5px;
     width: 325px;
     height: 8vw;
     margin-top: 5px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5px;
 }
 
 #host{
     margin-top: 15px;
     max-width: 70%;
     background-color: #F2F2F2;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .hostcontent{
     display: inline-flex;
     flex-direction: column;
-    background-color: white;
-    border-radius: 15px;
-    width: 17.5vw;
-    height: 23vh;
-    margin-left: 3.5vw;
-    padding-bottom: 2vw;
+    margin-left: 3vw;
+    padding-bottom: 3.5vh;
 }
 
 .text{
     margin-left: 20px;
-    line-height: 5px;
+    line-height: 7px;
 }
 
 .euro{
     font-weight: bold;
 }
 
-#content{
+.content{
     width: 335px;
-    height: 13vw;
+    height: 28vh;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .checked{
@@ -237,8 +233,9 @@ justify-content: left;
 }
 
 #plus{
-    margin-left: 3.5em;
-    padding-bottom: 2vw;
+    margin-left: 3.5vw;
+    margin-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 /* les plus populaires */
@@ -248,7 +245,7 @@ justify-content: left;
     flex-direction: column;
     justify-content: space-between;
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-right: 10px;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -262,17 +259,17 @@ justify-content: left;
     padding-top: 7px;
     margin-left: 5px;
     width: 150px;
-    height: 9vw;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    height: 8vw;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .images{
     display: flex;
     width: 380px;
-    height: 9.7vw;
+    height: 18vh;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .description{
@@ -286,18 +283,18 @@ justify-content: left;
 }
 
 .etoile{
-    line-height: 6.2vw;
+    line-height: 10vh;
 }
 
 #navPop{
     display: flex;
-    padding-bottom: 0.5vw;
-    margin-bottom: 0.5vw;
+    padding-bottom: 2vh;
+    margin-bottom: 1vh;
 }
 
 
 #bleublanc{
-    padding-bottom: 1.8vw;
+    padding-bottom: 8vh;
 }
 
 .fa-chart-line{
@@ -316,14 +313,12 @@ justify-content: left;
     justify-content: space-between;
 }
 
-
-
 .picture{
     object-fit:cover;
     width: 18vw;
     height: 28vw;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
    justify-content: center;
 }
 
@@ -331,37 +326,37 @@ justify-content: left;
     object-fit:cover;
     width: 20vw;
     height: 28vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #island{
     object-fit:cover;
     width: 20vw;
     height: 8vw;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #garde{
     object-fit: cover;
     width: 20vw;
     height: 10vw;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #fontaine{
     object-fit:cover;
     width: 20vw;
     height: 12vw;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .bottom{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 4px 4px 6px #F2F2F2;
 }
 
@@ -375,7 +370,7 @@ justify-content: left;
 
 .background-large{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 4px 4px 6px #F2F2F2;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
