@@ -13,29 +13,21 @@
     margin-right: 50px;
  }
 
-.filtersContent:hover {color: grey;}
-
  #menu{
-     display: flex;
-     justify-content: flex-end;
      margin-top: 6vh;
  }
 
  #hebergement{
     color: #0065FC;
-    margin-right: 50px;
-    font-size: 20px;
+    font-size: 50px;
     text-shadow: 0.5px 0px 1.7px;
-    text-decoration: none;
  }
    
 
 #inscrire{
     color: #0065FC;
     font-weight: bold;
-    padding-left: 50px;
-    font-size: 20px;
-    text-decoration: none;
+    font-size: 50px;
 }
 
 #activites{
@@ -45,7 +37,8 @@ text-decoration: none;
 }
 
 #logo{
-    width: 200px;
+    width: 120px;
+    display: block;
 }
 
 #titre{
@@ -101,11 +94,9 @@ justify-content: left;
 
 #filtersContainer{
     width: 75%;
-    display: flex;
     font-size: 1.2vw;
     font-weight: bold;
     margin-top: 50px;
-    justify-content: space-between;
 } 
 
 
@@ -118,7 +109,6 @@ justify-content: left;
     font-size: 1.5vw;
     margin-top: 15px;
     text-align: left;
-    flex-wrap: wrap;
 }
 
 .icons-background{
@@ -189,8 +179,6 @@ justify-content: left;
 
 #host{
     margin-top: 15px;
-    max-width: 70%;
-    background-color: #F2F2F2;
     border-radius: 20px;
 }
 
