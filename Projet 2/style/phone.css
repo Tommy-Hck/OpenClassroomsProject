@@ -107,16 +107,16 @@ justify-content: left;
 .filtres{
     color: #0065FC ;
     font-size: 1.5vw;
-    margin-top: 15px;
-    text-align: left;
 }
 
 .icons-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 100%;
     background-color: #DEEBFF;
     height: 60px;
     width: 60px;
-    text-align: center;
 }
 
 .categorie{
