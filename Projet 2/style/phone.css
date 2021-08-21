@@ -13,21 +13,35 @@
     margin-right: 50px;
  }
 
+.filtersContent:hover {color: grey;}
+
  #menu{
+     display: flex;
+     justify-content: flex-end;
      margin-top: 6vh;
+ }
+
+ #div-hebergement{
  }
 
  #hebergement{
     color: #0065FC;
-    font-size: 50px;
+    margin-right: 50px;
+    font-size: 20px;
     text-shadow: 0.5px 0px 1.7px;
+    text-decoration: none;
+    border-top: 4px solid #0065FC;
+    padding: 1vw;
+    padding-top: 5.6vh;
  }
    
 
 #inscrire{
     color: #0065FC;
     font-weight: bold;
+    padding-left: 50px;
     font-size: 50px;
+    text-decoration: none;
 }
 
 #activites{
@@ -37,12 +51,12 @@ text-decoration: none;
 }
 
 #logo{
-    width: 120px;
-    display: block;
+    width: 100px;
+    margin-top: -4vh;
 }
 
 #titre{
-font-size: 28px;
+font-size: 50px;
 margin-top: 45px;
 }
 
@@ -94,9 +108,11 @@ justify-content: left;
 
 #filtersContainer{
     width: 75%;
+    display: flex;
     font-size: 1.2vw;
     font-weight: bold;
     margin-top: 50px;
+    justify-content: space-between;
 } 
 
 
@@ -115,8 +131,11 @@ justify-content: left;
     justify-content: center;
     border-radius: 100%;
     background-color: #DEEBFF;
-    height: 60px;
-    width: 60px;
+    height: 64px;
+    width: 64px;
+    margin-top:-2px;
+    margin-left:-2px;
+    
 }
 
 .categorie{
@@ -179,6 +198,8 @@ justify-content: left;
 
 #host{
     margin-top: 15px;
+    max-width: 70%;
+    background-color: #F2F2F2;
     border-radius: 20px;
 }
 
