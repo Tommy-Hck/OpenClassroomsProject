@@ -29,7 +29,8 @@
     padding-left: 50px;
     font-size: 20px;
     text-decoration: none;
-    margin-top: 5px;
+    position: relative;
+    bottom: 13.5vh;
     margin-right: 15px;
 }
 
