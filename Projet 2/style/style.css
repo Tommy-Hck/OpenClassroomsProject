@@ -15,8 +15,6 @@
 .filtersContent:hover {color: grey;}
 
  #menu{
-     display: flex;
-     justify-content: flex-end;
      margin-top: 6vh;
  }
 
@@ -49,14 +47,20 @@ color: black;
 text-decoration: none;
 }
 
-#logo{
-    width: 10vw;
-    margin-top: -4vh;
+#titres-menu{
+    display: flex;
+    justify-content: flex-end;
 }
+
+#logo{
+    float: left;
+    width: 10vw;
+}
+
 
 #titre{
 font-size: 28px;
-margin-top: 45px;
+margin-top: 15vh;
 }
 
 #nature{
