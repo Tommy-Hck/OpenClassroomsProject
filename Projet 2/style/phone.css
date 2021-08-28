@@ -118,8 +118,10 @@ justify-content: left;
 } 
 
 
-#whistle{
-    padding-top: 25px;
+#titre-filtres{
+    padding-top: 3.5vh;
+    padding-bottom: 1vh;
+    font-size: 20px;
 }
 
 .filtres{
