@@ -209,7 +209,8 @@ border-collapse: collapse;
 /* Hebergements à Marseille */
 
 .container{
-    display: flex; 
+    display: flex;
+    flex-direction: column; 
     justify-content: space-between;
 }
 
@@ -348,6 +349,7 @@ border-collapse: collapse;
 
 #picture-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
