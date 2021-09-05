@@ -425,6 +425,19 @@ border-collapse: collapse;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
 
+
+.soustitre{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.soustitre-small{
+    margin-left: 10px;
+    padding-bottom: 0.1vh;
+    font-size: 18px;
+}
+
+
 /* Footer */
 
 #footer-container{
@@ -450,15 +463,4 @@ ul{
 
 #aide{
 padding-right: 15vw;
-}
-
-.soustitre{
-    margin-left: 1vw;
-    font-size: 18px;
-}
-
-.soustitre-small{
-    margin-left: 1vw;
-    padding-bottom: 0.1vh;
-    font-size: 18px;
 }
