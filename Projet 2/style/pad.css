@@ -125,12 +125,13 @@
 } 
 
 #titre-filtres{
+    font-size: 17px;
     padding-top: 25px;
 }
 
 .filtres{
     color: #0065FC ;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .icons-background{
@@ -180,9 +181,11 @@
 
 .filtersContent{
     display: flex;
+    font-size: 17px;
     margin-top: 15px;
     text-decoration: none;
     color: black;
+    width: max-content;
     margin-left: 20px;
     margin-right: 20px;
 }
