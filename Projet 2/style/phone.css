@@ -225,12 +225,11 @@ border-collapse: collapse;
 
 .hotel{
     object-fit:cover;
-    width: 325px;
-    height: 150px;
+    width: 90vw;
+    height: 16vh;
     margin-top: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-left: 5px;
 }
 
 #host{
@@ -356,51 +355,51 @@ border-collapse: collapse;
 
 .container-activites{
     padding-bottom: 8vh;
+    margin-left: 10px;
 }
 
 #picture-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .picture{
     object-fit:cover;
-    width: 21vw;
-    height: 28vw;
+    width: 90vw;
+    height: 16vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    justify-content: center;
 }
 
 #fort{
     object-fit:cover;
-    width: 22vw;
-    height: 28vh;
+    width: 90vw;
+    height: 16vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #island{
     object-fit:cover;
-    width: 22vw;
-    height: 18vh;
+    width: 90vw;
+    height: 16vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #garde{
     object-fit: cover;
-    width: 22vw;
-    height: 10vw;
+    width: 90vw;
+    height: 16vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #fontaine{
     object-fit:cover;
-    width: 22vw;
-    height: 12vw;
+    width: 90vw;
+    height: 16vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -428,6 +427,7 @@ border-collapse: collapse;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
 
+/* Footer */
 
 #footer-container{
     background-color: #F2F2F2;
