@@ -204,7 +204,7 @@ border-collapse: collapse;
 
    }
 
-   .filtersContent{
+.filtersContent{
     display: flex;
     margin-top: 15px;
     text-decoration: none;
@@ -233,7 +233,6 @@ border-collapse: collapse;
 #host{
     order: 2;
     margin-top: 15px;
-    background-color: #F2F2F2;
     border-radius: 20px;
 }
 
@@ -273,8 +272,8 @@ border-collapse: collapse;
 }
 
 #marseille{
-    margin-left: 3.5em;
-    font-size: 19px;
+    margin-left: 10px;
+    font-size: 15px;
 }
 
 #plus{
@@ -344,8 +343,8 @@ border-collapse: collapse;
 }
 
 .fa-chart-line{
-    padding-left: 9.5vw;
-    padding-top: 1.4vw;
+    padding-left: 24vw;
+    padding-top: 3vh;
     font-size: 20px;
 }
 
