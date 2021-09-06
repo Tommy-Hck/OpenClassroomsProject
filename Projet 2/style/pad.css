@@ -7,6 +7,10 @@
      font-family: "Raleway";
  }
 
+ br{
+     display: none;
+ }
+
  .main-container{ 
     margin-left: 50px;
     margin-right: 50px;
@@ -290,7 +294,7 @@
 
 .images{
     display: flex;
-    width: 22vw;
+    width: max-content;
     height: 20.5vh;
     background-color: white;
     border-radius: 20px;
