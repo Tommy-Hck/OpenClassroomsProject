@@ -25,7 +25,6 @@
 
  #hebergement{
     color: #0065FC;
-    margin-right: 50px;
     font-size: 20px;
     text-shadow: 0.5px 0px 1.7px;
     text-decoration: none;
@@ -39,7 +38,6 @@
 #inscrire{
     color: #0065FC;
     font-weight: bold;
-    padding-left: 50px;
     font-size: 20px;
     text-decoration: none;
 }
@@ -332,54 +330,56 @@
 
 .container-activites{
     padding-bottom: 8vh;
+    justify-content: center;
 }
 
 #picture-container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .picture{
     object-fit:cover;
-    width: 25vw;
+    width: 30vw;
     height: 28vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    justify-content: center;
 }
 
 #fort{
     object-fit:cover;
-    width: 22vw;
-    height: 28vh;
+    width: 30vw;
+    height: 15vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #island{
     object-fit:cover;
-    width: 22vw;
-    height: 18vh;
+    width: 30vw;
+    height: 15vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #garde{
     object-fit: cover;
-    width: 22vw;
-    height: 10vw;
+    width: 30vw;
+    height: 15vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #fontaine{
     object-fit:cover;
-    width: 22vw;
-    height: 12vw;
+    width: 30vw;
+    height: 15vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 
 .bottom{
     background-color: white;
@@ -389,11 +389,13 @@
 }
 
 .last{
+    height: 20vh;
     margin-top: 4.5vh;
     margin-bottom: 4vh;
 }
 
 .first{
+    height: 20vh;
     margin-top: 4vh;
     margin-bottom: 4vh;
 }
