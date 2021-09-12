@@ -72,7 +72,8 @@
 
 #loc{
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    margin-top: 5vh;
 }
 
 #rechercher{
@@ -126,6 +127,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 1.2vw;
     font-weight: bold;
     margin-top: 50px;
@@ -134,6 +136,7 @@
 #titre-filtres{
     font-size: 20px;
     padding-top: 25px;
+    width: 100%;
 }
 
 .filtres{
@@ -199,10 +202,6 @@
 
 /* Hebergements à Marseille */
 
-.container{
-   
-}
-
 .hotel{
     object-fit:cover;
     width: 365px;
@@ -210,19 +209,20 @@
     margin-top: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-left: 5px;
 }
 
 #host{
     display: flex; 
+    justify-content: center;
     margin-top: 15px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 
 .hostcontent{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: 3vw;
     padding-bottom: 3.5vh;
 }
@@ -237,11 +237,11 @@
 }
 
 .content{
-    width: 370px;
+    width: 375px;
     height: 26vh;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 2px 2px 6px #F2F2F2;
+    box-shadow: 2px 2px 6px #c9c9c9;
 }
 
 .checked{
@@ -260,7 +260,6 @@
 }
 
 #plus{
-    margin-left: 3.5vw;
     padding-bottom: 15px;
     padding-bottom: 20px;
 }
@@ -297,7 +296,7 @@
     background-color: white;
     border-radius: 20px;
     margin-top: 17px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
 }
 
 .description{
@@ -337,13 +336,14 @@
 
 #picture-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .picture{
     object-fit:cover;
-    width: 21vw;
-    height: 28vw;
+    width: 25vw;
+    height: 28vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     justify-content: center;
@@ -383,8 +383,9 @@
 
 .bottom{
     background-color: white;
+    height: 18vh;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
 }
 
 .last{
@@ -394,12 +395,13 @@
 
 .first{
     margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 .background-large{
     background-color: white;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
     margin-bottom: 6vh;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }

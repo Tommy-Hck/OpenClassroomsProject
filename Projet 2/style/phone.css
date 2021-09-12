@@ -14,23 +14,45 @@
 
 .filtersContent:hover {color: grey;}
 
-nav{
+#menu {
+    height: 7rem;
+    margin: 1.6rem 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 
  #hebergement{
-    color: #0065FC;
+        color: #0065FC;
+        font-size: 20px;
+        text-shadow: 0.5px 0px 1.7px;
+        text-decoration: none;
+        border-bottom: 4px solid #0065FC;
+}
+    /* color: #0065FC;
     font-size: 18px;
     text-shadow: 0.5px 0px 1.7px;
     text-decoration: none;
     border-bottom: 4px solid #0065FC;
     position: relative;
     top: 15vh;
-    left: 10vw;
- }
+    padding-left: 60px;
+    padding-right: 20px; */
+ 
    
 
 #inscrire{
-    display: flex;
+        display: flex;
+        justify-content: flex-end;
+        color: #0065FC;
+        font-weight: bold;
+        padding-left: 50px;
+        font-size: 20px;
+        text-decoration: none;
+        margin-right: 15px;
+        order: 1;
+}       
+    /* display: flex;
     justify-content: flex-end;
     color: #0065FC;
     font-weight: bold;
@@ -40,7 +62,7 @@ nav{
     position: relative;
     bottom: 13.5vh;
     margin-right: 15px;
-}
+} */
 
 #activites{
     display: flex;
@@ -51,6 +73,10 @@ nav{
     position: relative;
     top: 12.5vh;
     margin-right: 13vw;
+    border-bottom: 4px solid #c9c9c9;
+}
+#div-logo { 
+    align-self: center;
 }
 
 #logo{
@@ -59,8 +85,12 @@ nav{
 
 
 #titre{
-    font-size: 23px;
-    margin-top: 15vh;
+        font-size: 23px;
+        /* ICI */
+        /* margin-top: 15vh; */
+        
+    /* font-size: 23px;
+    margin-top: 15vh; */
 }
 
 #nature{
