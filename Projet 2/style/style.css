@@ -15,7 +15,11 @@
 .filtersContent:hover {color: grey;}
 
  #menu{
-     margin-top: 6vh;
+    height: 7rem;
+    display: flex;
+    margin-top: 6vh;
+    justify-content: space-between;
+    align-items: center;
  }
 
  #hebergement{
@@ -40,9 +44,9 @@
 }
 
 #activites{
-font-size: 20px;
-color: black;
-text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
 
 #titres-menu{
@@ -51,14 +55,13 @@ text-decoration: none;
 }
 
 #logo{
-    float: left;
-    width: 10vw;
+    flex-grow: 1;
+    align-self: center;
 }
 
 
 #titre{
-font-size: 28px;
-margin-top: 15vh;
+    font-size: 28px;
 }
 
 #nature{
@@ -67,8 +70,8 @@ margin-top: 15vh;
 }
 
 #loc{
-display: flex;
-justify-content: left;
+    display: flex;
+    justify-content: left;
 }
 
 #rechercher{
@@ -232,7 +235,7 @@ justify-content: left;
     height: 28vh;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 2px 2px 6px #F2F2F2;
+    box-shadow: 2px 2px 6px #c9c9c9;
 }
 
 .checked{
@@ -289,7 +292,7 @@ justify-content: left;
     background-color: white;
     border-radius: 20px;
     margin-top: 17px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
 }
 
 .description{
@@ -376,7 +379,7 @@ justify-content: left;
 .bottom{
     background-color: white;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
 }
 
 .last{
@@ -391,7 +394,7 @@ justify-content: left;
 .background-large{
     background-color: white;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
     margin-bottom: 6vh;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }

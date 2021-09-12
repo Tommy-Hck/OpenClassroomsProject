@@ -136,20 +136,18 @@ border-collapse: collapse;
 
 #filtersContainer{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     font-size: 17px;
     font-weight: bold;
     margin-top: 50px;
-    justify-content: space-between;
 } 
 
 
 #titre-filtres{
+    width: 100%;
     padding-top: 3.5vh;
     padding-bottom: 1vh;
     margin-left: 10px;
-    padding-right: 20vw;
     font-size: 20px;
 }
 
