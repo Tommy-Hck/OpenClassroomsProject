@@ -67,12 +67,13 @@
 #activites{
     display: flex;
     justify-content: flex-end;
-    font-size: 18px;
+    font-size: 22px;
     color: black;
     text-decoration: none;
-    position: relative;
+    order: 2;
+    /* position: relative;
     top: 12.5vh;
-    margin-right: 13vw;
+    margin-right: 13vw; */
     border-bottom: 4px solid #c9c9c9;
 }
 #div-logo { 
@@ -85,12 +86,7 @@
 
 
 #titre{
-        font-size: 23px;
-        /* ICI */
-        /* margin-top: 15vh; */
-        
-    /* font-size: 23px;
-    margin-top: 15vh; */
+    font-size: 23px;
 }
 
 #nature{
@@ -253,12 +249,13 @@ border-collapse: collapse;
 .container{
     display: flex;
     flex-direction: column;
+    margin-top: 7vh;
 }
 
 .hotel{
     object-fit:cover;
-    width: 90vw;
-    height: 16vh;
+    width: 372px;
+    height: 130px;
     margin-top: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -273,7 +270,6 @@ border-collapse: collapse;
 .hostcontent{
     display: inline-flex;
     flex-direction: column;
-    justify-content: ;
     margin-left: 3vw;
     padding-bottom: 3.5vh;
 }
@@ -288,8 +284,8 @@ border-collapse: collapse;
 }
 
 .content{
-    width: 335px;
-    height: 28vh;
+    width: 378px;
+    height: 31vh;
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 4px 4px #F2F2F2;
@@ -327,6 +323,7 @@ border-collapse: collapse;
     padding-right: 10px;
     padding-left: 2vw;
     padding-right: 2vw;
+    padding-bottom: 2vh;
     margin-top: 15px;
     padding-top: 1vw;
 
@@ -372,7 +369,7 @@ border-collapse: collapse;
 
 
 #bleublanc{
-    padding-bottom: 3vh;
+    padding-bottom: vh;
 }
 
 .fa-chart-line{
@@ -396,45 +393,46 @@ border-collapse: collapse;
 
 .picture{
     object-fit:cover;
-    width: 90vw;
-    height: 16vh;
+    width: 372px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #fort{
     object-fit:cover;
-    width: 90vw;
-    height: 16vh;
+    width: 372px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #island{
     object-fit:cover;
-    width: 90vw;
-    height: 16vh;
+    width: 372px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #garde{
     object-fit: cover;
-    width: 90vw;
-    height: 16vh;
+    width: 372px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 #fontaine{
     object-fit:cover;
-    width: 90vw;
-    height: 16vh;
+    width: 372px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
 .bottom{
+    width: max-content;
     background-color: white;
     border-radius: 15px;
     box-shadow: 4px 4px 6px #F2F2F2;
@@ -451,6 +449,7 @@ border-collapse: collapse;
 }
 
 .background-large{
+    width: max-content;
     background-color: white;
     border-radius: 15px;
     box-shadow: 4px 4px 6px #F2F2F2;
