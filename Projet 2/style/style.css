@@ -4,17 +4,16 @@
     }
 
  *{
-     font-family: "Raleway";
+    font-family: "Raleway";
+    text-decoration: none;
+    font-size: 1vw;
+    color: black;
  }
 
  .main-container{ 
-    /* margin-left: 50px;
-    margin-right: 50px; */
-    margin:auto;
-    width:1800px;
+    margin: auto;
+    width: 92vw;
  }
-
-.filtersContent:hover {color: grey;}
 
  #menu{
     height: 7rem;
@@ -24,9 +23,13 @@
     align-items: center;
  }
 
+ nav a{
+     font-size: 1.8rem;
+ }
+
  #hebergement{
     color: #0065FC;
-    margin-right: 50px;
+    margin-right: 3rem;
     font-size: 20px;
     text-shadow: 0.5px 0px 1.7px;
     text-decoration: none;
@@ -62,17 +65,17 @@
     }
     
 #logo{
-    width: 120px;
+    width: 11rem;
 }
 
 
 #titre{
-    font-size: 28px;
+    font-size: 2.5rem;
 }
 
 #nature{
-    font-size: 20px;
-    margin-top: -5px;
+    font-size: 1.6rem;
+    margin-top: -1rem;
 }
 
 #loc{
@@ -82,15 +85,14 @@
 
 #rechercher{
     background-color: #0065FC;
-    height: 60px;
-    width: 180px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     border-width: 0px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2rem;
     color: white;
     vertical-align: 1px;
+    padding: 1rem;
 }
 
 #search-mobile{
@@ -103,9 +105,7 @@
 
 #location{
     font-weight: bold;
-    height: 60px;
-    width: 315px;
-    font-size: 25px;
+    font-size: 2rem;
     border: 1px solid #F2F2F2;
 }
 
@@ -125,22 +125,26 @@
 }
 
 #filtersContainer{
-    width: 75%;
+    width: 85%;
     display: flex;
     font-size: 1.2vw;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 2rem;
     justify-content: space-between;
 } 
 
 #titre-filtres{
-    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .filtres{
     color: #0065FC ;
     font-size: 1.5vw;
 }
+
+.filtersContent:hover {color: grey;}
 
 .icons-background{
     display: flex;
