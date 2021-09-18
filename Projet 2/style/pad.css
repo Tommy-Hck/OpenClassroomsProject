@@ -16,7 +16,7 @@
     margin-right: 50px;
  }
 
-.filtersContent:hover {color: grey;}
+.filters-content:hover {color: grey;}
 
  #menu{
      display: flex;
@@ -120,7 +120,7 @@
 /* filtres */
 
 
-#filtersContainer{
+#filters-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -186,7 +186,7 @@
        margin-top: 16px;
    }
 
-.filtersContent{
+.filters-content{
     display: flex;
     font-size: 17px;
     margin-top: 15px;
@@ -263,7 +263,7 @@
 
 /* les plus populaires */
 
-.blocDroit{
+.bloc-droit{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -309,7 +309,7 @@
     margin-top: 10vh;
 }
 
-#navPop{
+#nav-pop{
     display: flex;
     padding-top: 10px;
 }
