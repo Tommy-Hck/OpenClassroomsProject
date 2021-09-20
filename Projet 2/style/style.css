@@ -180,16 +180,19 @@
     width: 25px;
     border-radius: 100px;
     border: 1px solid #F2F2F2;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
    
 .fa-info{
        font-size: 15px;
        color: #0065FC;
-       margin-left: -16px;
-       margin-right: 20px;
-       margin-top: 16px;
-   }
+}
+
+#logement{
+    margin-left: 1rem;
+}
 
 .filters-content{
     display: flex;
@@ -221,7 +224,7 @@
 }
 
 #host{
-    margin-top: 15px;
+    margin-top: 1rem;
     max-width: 70%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -263,7 +266,7 @@
 
 #marseille{
     margin-left: 3.5em;
-    font-size: 19px;
+    font-size: 1rem;
 }
 
 #plus{
