@@ -224,6 +224,7 @@
 .hostcontent{
     display: flex;
     flex-direction: column;
+    align-items:center;
     margin-left: 3vw;
     padding-bottom: 3.5vh;
 }
@@ -239,7 +240,7 @@
 
 .content{
     width: 375px;
-    height: 26vh;
+    height: max-content;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 6px #c9c9c9;
@@ -248,6 +249,7 @@
 .checked{
     color: #0065FC;
     font-size: 13px;
+    padding-bottom: 1vh;
 }
     
 .notChecked{
@@ -270,28 +272,27 @@
 .bloc-droit{
     display: flex;
     flex-direction: column;
+    padding-bottom: 2vh;
+    margin-top: 15px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding-right: 10px;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-top: 15px;
-    padding-top: 1vw;
 
 }
 
 .fame{
     object-fit:cover;
     width: 22vw;
-    height: 19vh;
+    height: 17vh;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .images{
     display: flex;
-    width: 85%;
-    height: 20.5vh;
+    height: 18vh;
     background-color: white;
     border-radius: 20px;
     margin-top: 17px;
@@ -308,22 +309,18 @@
 }
 
 .etoile{
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 #nav-pop{
     display: flex;
+    justify-content: center;
     padding-top: 10px;
 }
 
-
-#bleublanc{
-    padding-bottom: 3vh;
-}
-
 .fa-chart-line{
-    padding-left: 9.5vw;
-    padding-top: 1.4vw;
+    margin-top: 25px;
+    margin-left: 4vw;
     font-size: 20px;
 }
 
@@ -331,7 +328,9 @@
 
 .container-activites{
     padding-bottom: 8vh;
-    justify-content: center;
+}
+
+#titre-activites{
 }
 
 #picture-container{
