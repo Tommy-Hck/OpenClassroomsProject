@@ -355,19 +355,19 @@ border-collapse: collapse;
 /* activités à Marseille */
 
 .container-activites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 8vh;
-    margin-left: 10px;
 }
 
 #picture-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 .picture{
     object-fit:cover;
-    width: 372px;
+    width: 350px;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -375,7 +375,7 @@ border-collapse: collapse;
 
 #fort{
     object-fit:cover;
-    width: 372px;
+    width: 350px;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -383,7 +383,7 @@ border-collapse: collapse;
 
 #island{
     object-fit:cover;
-    width: 372px;
+    width: 350px;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -391,7 +391,7 @@ border-collapse: collapse;
 
 #garde{
     object-fit: cover;
-    width: 372px;
+    width: 350px;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -399,7 +399,7 @@ border-collapse: collapse;
 
 #fontaine{
     object-fit:cover;
-    width: 372px;
+    width: 350px;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
