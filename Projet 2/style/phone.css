@@ -32,6 +32,7 @@ a{
         text-shadow: 0.5px 0px 1.7px;
         text-decoration: none;
         border-bottom: 4px solid #0065FC;
+        padding-left: 25px;
 }
 
 #inscrire{
@@ -54,6 +55,7 @@ a{
     text-decoration: none;
     order: 2;
     border-bottom: 4px solid #c9c9c9;
+    padding-right: 25px;
 }
 #div-logo { 
     align-self: center;
@@ -227,11 +229,12 @@ border-collapse: collapse;
 
 .hotel{
     object-fit:cover;
-    width: 372px;
+    width: 340px;
     height: 130px;
     margin-top: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-left: 5px;
 }
 
 #host{
@@ -241,9 +244,8 @@ border-collapse: collapse;
 }
 
 .hostcontent{
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
     padding-bottom: 3.5vh;
 }
 
@@ -257,8 +259,8 @@ border-collapse: collapse;
 }
 
 .content{
-    width: 378px;
-    height: 31vh;
+    width: 350px;
+    height: 29vh;
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 4px 4px #F2F2F2;
