@@ -263,7 +263,7 @@ border-collapse: collapse;
     height: 29vh;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 4px 4px 4px #F2F2F2;
+    box-shadow: 4px 4px 4px #c9c9c9;
 }
 
 .checked{
@@ -321,7 +321,7 @@ border-collapse: collapse;
     background-color: white;
     border-radius: 20px;
     margin-top: 17px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
 }
 
 .description{
@@ -344,7 +344,6 @@ border-collapse: collapse;
 
 
 #bleublanc{
-    padding-bottom: vh;
 }
 
 .fa-chart-line{
@@ -353,7 +352,7 @@ border-collapse: collapse;
     font-size: 20px;
 }
 
-/* acitivités à Marseille */
+/* activités à Marseille */
 
 .container-activites{
     padding-bottom: 8vh;
@@ -410,7 +409,7 @@ border-collapse: collapse;
     width: max-content;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
 }
 
 .last{
@@ -427,7 +426,7 @@ border-collapse: collapse;
     width: max-content;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 4px 4px 6px #F2F2F2;
+    box-shadow: 4px 4px 6px #c9c9c9;
     margin-bottom: 6vh;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
