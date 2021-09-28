@@ -142,8 +142,7 @@ border-collapse: collapse;
 
 /* section filtres */
 
-#filtersContainer{
-    width: 110%;
+#filters-container{
     display: flex;
     flex-wrap: wrap;
     font-size: 14px;
@@ -180,6 +179,7 @@ border-collapse: collapse;
 
 .categorie{
     display: flex;
+    align-items: center;
     font-weight: bold;
     font-size: 17px;
     border-width: 1px;

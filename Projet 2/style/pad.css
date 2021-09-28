@@ -179,15 +179,14 @@
     width: 25px;
     border-radius: 100px;
     border: 1px solid #F2F2F2;
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
    
 .fa-info{
-       font-size: 15px;
-       color: #0065FC;
-       margin-left: -16px;
-       margin-right: 20px;
-       margin-top: 16px;
+    font-size: 15px;
+    color: #0065FC;
    }
 
 .filters-content{

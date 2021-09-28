@@ -38,7 +38,7 @@
 
  #hebergement{
     color: #0065FC;
-    margin-right: 0 1.5rem;
+    margin: 0 1.5rem;
     padding: 0 1.5rem;
     font-size: 20px;
     text-shadow: 0.5px 0px 1.7px;
@@ -344,7 +344,7 @@
     font-size: 20px;
 }
 
-/* acitivités à Marseille */
+/* activités à Marseille */
 
 .container-activites{
     padding-bottom: 8vh;
