@@ -140,6 +140,8 @@ border-collapse: collapse;
     background-color: #F2F2F2;
 }
 
+/* section filtres */
+
 #filtersContainer{
     width: 110%;
     display: flex;
@@ -211,7 +213,6 @@ border-collapse: collapse;
 
 .filtersContent{
     display: flex;
-    margin-top: 15px;
     text-decoration: none;
     color: black;
     margin-left: 20px;
@@ -224,7 +225,6 @@ border-collapse: collapse;
 .container{
     display: flex;
     flex-direction: column;
-    margin-top: 7vh;
 }
 
 .hotel{
@@ -246,7 +246,7 @@ border-collapse: collapse;
 .hostcontent{
     display: flex;
     justify-content: center;
-    padding-bottom: 3.5vh;
+    padding-bottom: 15px;
 }
 
 .text{
@@ -259,8 +259,8 @@ border-collapse: collapse;
 }
 
 .content{
-    width: 350px;
-    height: 29vh;
+    width:; 
+    height: 240px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 4px 4px 4px #c9c9c9;
@@ -340,10 +340,6 @@ border-collapse: collapse;
 #nav-pop{
     display: flex;
     padding-top: 10px;
-}
-
-
-#bleublanc{
 }
 
 .fa-chart-line{
