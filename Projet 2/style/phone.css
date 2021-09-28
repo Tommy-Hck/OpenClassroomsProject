@@ -196,19 +196,18 @@ border-collapse: collapse;
 }
 
 #info{
-    height: 20px;
-    width: 28px;
+    height: 25px;
+    width: 25px;
     border-radius: 100px;
     border: 1px solid #F2F2F2;
-    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
    
 .fa-info{
        font-size: 12px;
        color: #0065FC;
-       margin-top: 19px;
-       position: relative;
-       right: 13px;
    }
 
 .filtersContent{
@@ -300,7 +299,7 @@ border-collapse: collapse;
     padding-right: 2vw;
     padding-bottom: 2vh;
     margin-top: 15px;
-    padding-top: 1vw;
+    padding-top: 15px;
 
 }
 
@@ -356,9 +355,6 @@ border-collapse: collapse;
     justify-content: center;
     align-items: center;
     padding-bottom: 8vh;
-}
-
-#picture-container{
 }
 
 .picture{
