@@ -358,7 +358,7 @@
 .picture{
     object-fit:cover;
     width: 21vw;
-    height: 28vw;
+    height: 59vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     justify-content: center;
@@ -383,7 +383,7 @@
 #garde{
     object-fit: cover;
     width: 22vw;
-    height: 10vw;
+    height: 18vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -391,7 +391,7 @@
 #fontaine{
     object-fit:cover;
     width: 22vw;
-    height: 12vw;
+    height: 28vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
