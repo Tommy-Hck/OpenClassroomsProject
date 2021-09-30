@@ -381,15 +381,13 @@
 }
 
 .last{
-    height: 20vh;
-    margin-top: 4.5vh;
-    margin-bottom: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .first{
-    height: 20vh;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .background-large{
@@ -399,6 +397,9 @@
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
 
+h4{
+    margin-bottom: 5px;
+}
 
 /* Footer */
 
