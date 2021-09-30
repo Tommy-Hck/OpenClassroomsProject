@@ -340,14 +340,13 @@
 
 .fa-chart-line{
     padding-left: 9.5vw;
-    padding-top: 1.4vw;
+    padding-top: 1.8vh;
     font-size: 20px;
 }
 
 /* activités à Marseille */
 
 .container-activites{
-    padding-bottom: 8vh;
     margin-top: 8vh;
 }
 
