@@ -79,6 +79,7 @@ a{
 display: flex;
 justify-content: left;
 border-collapse: collapse;
+margin-top: 4vh;
 }
 
 #rechercher{
@@ -149,7 +150,7 @@ border-collapse: collapse;
     justify-content: space-between;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 1vh;
 } 
 
 
