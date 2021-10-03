@@ -421,6 +421,7 @@ border-collapse: collapse;
     border-radius: 15px;
     box-shadow: 4px 4px 6px #c9c9c9;
     margin-bottom: 6vh;
+    padding-bottom: 1vh;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
 
