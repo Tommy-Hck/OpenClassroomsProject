@@ -142,6 +142,9 @@ margin-top: 4vh;
     background-color: #F2F2F2;
 }
 
+#logement{
+    margin-top: 0.5vh;
+}
 /* section filtres */
 
 #filters-container{
@@ -211,6 +214,7 @@ margin-top: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 15px;
    }
    
 .fa-info{
