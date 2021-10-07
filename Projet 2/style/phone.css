@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Raleway";
-        src: url("../fonts/Raleway-VariableFont_wght.ttf");
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
     }
 
  *{
-     font-family: "Raleway";
- }
+    font-family: "Raleway";
+  }
 
 a{
     text-decoration: none;
@@ -27,31 +27,31 @@ a{
 }
 
  #hebergement{
-        color: #0065FC;
-        font-size: 20px;
-        text-shadow: 0.5px 0px 1.7px;
-        text-decoration: none;
-        border-bottom: 4px solid #0065FC;
-        padding-left: 25px;
+    color: #0065FC;
+    font-size: 20px;
+    text-shadow: 0.5px 0px 1.7px;
+    text-decoration: none;
+    border-bottom: 4px solid #0065FC;
+    padding-left: 25px;
 }
 
 #inscrire{
-        display: flex;
-        justify-content: flex-end;
-        color: #0065FC;
-        font-weight: bold;
-        padding-left: 50px;
-        font-size: 20px;
-        text-decoration: none;
-        margin-right: 15px;
-        margin-top: 2.5vh;
-        order: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: #0065FC;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 2.5vh;
+    order: 1;
 }       
 
 #activites{
     display: flex;
     justify-content: flex-end;
-    font-size: 22px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     order: 2;
@@ -76,10 +76,10 @@ a{
 }
 
 #loc{
-display: flex;
-justify-content: left;
-border-collapse: collapse;
-margin-top: 4vh;
+    display: flex;
+    justify-content: left;
+    border-collapse: collapse;
+    margin-top: 4vh;
 }
 
 #rechercher{
@@ -97,24 +97,26 @@ margin-top: 4vh;
 
 #search-mobile{
     visibility: visible;
+    display: flex;
+    justify-content: left;
     background-color: #0065FC;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
-    position: relative;
-    right: 40vw;
     border: none;
+    margin-left: -1rem;
 }
 
 .fa-search{
     visibility: visible;
+    align-self: center;
     font-size: 20px;
     color: white;
     
 }
 
 #rechercher{
-    visibility: hidden;
+    display:none
 }
 
 #location{
