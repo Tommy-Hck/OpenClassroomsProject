@@ -26,7 +26,6 @@
 }
 
  #menu{
-    height: 7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +38,7 @@
  #hebergement{
     color: #0065FC;
     margin: 0 1.5rem;
-    padding: 0 1.5rem;
+    padding: 1.5rem 1.5rem;
     font-size: 20px;
     text-shadow: 0.5px 0px 1.7px;
     text-decoration: none;
@@ -47,7 +46,7 @@
    
  #hebergement:hover {
     border-top: 4px solid #0065FC;
-    padding-top: 5.6vh;
+    margin-top: -4px;
 }
 
 #inscrire{
@@ -62,11 +61,6 @@
     font-size: 20px;
     color: black;
     text-decoration: none;
-}
-
-#titres-menu{
-    display: flex;
-    justify-content: flex-end;
 }
 
 #titre{
@@ -149,6 +143,10 @@
 .filtres{
     color: #0065FC ;
     font-size: 1.5vw;
+}
+
+.link:hover{
+    color: grey;
 }
 
 .icons-background{
@@ -353,6 +351,7 @@
 #picture-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6vh;
 }
 
 .picture{
@@ -361,7 +360,6 @@
     height: 59vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    justify-content: center;
 }
 
 #fort{
@@ -402,13 +400,16 @@
     box-shadow: 4px 4px 6px #c9c9c9;
 }
 
-.last{
-    margin-top: 4.5vh;
-    margin-bottom: 4vh;
+.premier{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.first{
-    margin-top: 4vh;
+.dernier{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .background-large{
@@ -416,7 +417,6 @@
     height: 50%;
     border-radius: 15px;
     box-shadow: 4px 4px 6px #c9c9c9;
-    margin-bottom: 6vh;
     /* box-shadow:4px (décalage horizontal) 4px (décalage vertical) 6px (adoucissement dégradé)  */
 }
 
