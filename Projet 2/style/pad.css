@@ -218,6 +218,11 @@
     margin-top: 15px;
     background-color: #F2F2F2;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 
 .hostcontent{
@@ -257,7 +262,6 @@
 }
 
 #marseille{
-    margin-left: 3.5em;
     font-size: 19px;
 }
 
